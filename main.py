@@ -102,18 +102,21 @@ class Budget:
             selection = int(input('which budget do you want to transfer to?\n'))
             if selection == 2:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Food_budget -= transfer_amount
                 Entertainment_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Entertainment budget,\n please check your balance")
             elif selection == 3:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Food_budget -= transfer_amount
                 Clothing_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Clothing budget,\n please check your balance")
             elif selection == 4:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Food_budget -= transfer_amount
                 Business_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
@@ -126,18 +129,21 @@ class Budget:
             selection = int(input('which budget do you want to transfer to?\n'))
             if selection == 1:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Entertainment_budget -= transfer_amount
                 Food_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Food budget,\n please check your balance")
             elif selection == 3:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Entertainment_budget -= transfer_amount
                 Clothing_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Clothing budget,\n please check your balance")
             elif selection == 4:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Entertainment_budget -= transfer_amount
                 Business_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
@@ -150,18 +156,21 @@ class Budget:
             selection = int(input('which budget do you want to transfer to?\n'))
             if selection == 1:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Clothing_budget-= transfer_amount
                 Food_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Food budget,\n please check your balance")
             elif selection == 2:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Clothing_budget -= transfer_amount
                 Entertainment_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Entertainment budget,\n please check your balance")
             elif selection == 4:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Clothing_budget -= transfer_amount
                 Business_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
@@ -174,18 +183,21 @@ class Budget:
             selection = int(input('which budget do you want to transfer to?\n'))
             if selection == 1:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Business_budget -= transfer_amount
                 Food_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Food budget,\n please check your balance")
             elif selection == 3:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Business_budget -= transfer_amount
                 Clothing_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
                       "to Clothing budget,\n please check your balance")
             elif selection == 2:
                 transfer_amount = int(input('pleas state amount: \n'))
+                Business_budget -= transfer_amount
                 Entertainment_budget += transfer_amount
                 print('*****transaction_processing', loading, '******')
                 print("you have successfully transfered ", transfer_amount,
